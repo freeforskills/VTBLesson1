@@ -11,8 +11,4 @@ public class Dog extends Animals{
             listOfAnimals.replace("Dog", count);
         } else listOfAnimals.put("Dog", count);
     }
-
-    public static int getCount() {
-        return count;
-    }
 }

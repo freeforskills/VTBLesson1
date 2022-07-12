@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Animals implements Comparable<Animals>{
-    public static Map<String, Integer> listOfAnimals = new HashMap<>();
-    public String name;
+    static Map<String, Integer> listOfAnimals = new HashMap<>();
+    String name;
     int swimDistance;
     int runDistance;
 

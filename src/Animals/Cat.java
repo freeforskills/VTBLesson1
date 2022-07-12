@@ -11,11 +11,6 @@ public class Cat extends Animals{
             listOfAnimals.replace("Cat", count);
         } else listOfAnimals.put("Cat", count);
     }
-
-    public static int getCount() {
-        return count;
-    }
-
     @Override
     public void swim(int dist) {
         System.out.println(name + " не умеет плавать.");
